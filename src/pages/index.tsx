@@ -2,7 +2,7 @@ import Layout from '../layout/Layout'
 
 const Index = () => {
   return (
-  <Layout>
+  <Layout pageTitle={'Easy Bank'}>
     
   </Layout>
   );
