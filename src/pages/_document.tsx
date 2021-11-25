@@ -7,7 +7,13 @@ class MyDocument extends Document {
   render() {
     return (
       <Html lang={AppConfig.locale}>
-        <Head />
+        <Head>
+          <link
+            href="https://fonts.googleapis.com/css2?family=Public+Sans:wght@300;400;700&display=swap"
+            rel="stylesheet"
+          />
+          <link rel="icon" href="/assets/images/favicon-32x32.png" />
+        </Head>
         <body>
           <Main />
           <NextScript />
