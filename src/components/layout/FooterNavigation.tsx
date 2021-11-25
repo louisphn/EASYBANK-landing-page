@@ -1,4 +1,5 @@
 import { VFC, memo } from 'react';
+
 import { useRouter } from 'next/router';
 
 import { footerMenu } from '../../lib/data';

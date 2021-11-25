@@ -2,8 +2,8 @@ import { VFC, memo, useState, useEffect } from 'react';
 
 import Image from 'next/image';
 
-import HeaderNavigation from './HeaderNavigation';
 import PrimaryButton from '../button/PrimaryButton';
+import HeaderNavigation from './HeaderNavigation';
 
 const Header: VFC = () => {
   const [active, setActive] = useState<boolean>(false);
