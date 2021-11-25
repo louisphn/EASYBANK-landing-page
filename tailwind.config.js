@@ -1,6 +1,11 @@
 module.exports = {
   mode: 'jit',
-  purge: ['./src/**/*.{js,ts,jsx,tsx}'],
+  purge: {content: ['./src/**/*.{js,ts,jsx,tsx}'],
+  safelist: [
+    'bg-white',
+    'bg-black',
+  ]
+},
   darkMode: false,
   theme: {
     fontSize: {
@@ -15,8 +20,18 @@ module.exports = {
       '5xl': '3rem',
       '6xl': '4rem',
     },
+    colors: {
+      "primary-dark-blue": "#2D314D",
+      "primary-lime-green": "#31D35C",
+      "primary-light-cyan": "#2BB7DA",
+      "gray-blue": "#9698A6",
+      "light-gray-blue": "#F3F4F6",
+      "light-gray": "#FAFAFA"
+    },
     extend: {
       colors: {
+        white: '#fff',
+        black: '#000',
         gray: {
           100: '#f7fafc',
           200: '#edf2f7',
