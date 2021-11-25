@@ -22,9 +22,7 @@ export const footerMenu = [
   {
     name: 'Privacy Policy',
     path: '/privacy-policies'
-  },
+  }
 ];
 
-export const headerMenu = [
-  'Home', 'About', 'Contact', 'Blog', 'Careers'
-]
+export const headerMenu = ['Home', 'About', 'Contact', 'Blog', 'Careers'];

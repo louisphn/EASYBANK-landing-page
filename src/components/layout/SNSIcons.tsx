@@ -2,7 +2,13 @@ import { memo } from 'react';
 import Image from 'next/image';
 
 const SNSIcons = () => {
-  const icons = ['/icon-facebook.svg', '/icon-youtube.svg', '/icon-twitter.svg', '/icon-pinterest.svg', '/icon-instagram.svg']
+  const icons = [
+    '/icon-facebook.svg',
+    '/icon-youtube.svg',
+    '/icon-twitter.svg',
+    '/icon-pinterest.svg',
+    '/icon-instagram.svg'
+  ];
   return (
     <ul className="flex">
       {icons.map((icon) => (
@@ -11,7 +17,7 @@ const SNSIcons = () => {
         </li>
       ))}
     </ul>
-  )
-}
+  );
+};
 
 export default memo(SNSIcons);

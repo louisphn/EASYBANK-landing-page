@@ -9,8 +9,8 @@ html {
 }
 
 body {
-  font-family: 'Public Sans', -apple-system, BlinkMacSystemFont, Roboto, 'Segoe UI', 'Helvetica Neue', HelveticaNeue, YuGothic,
-  'Yu Gothic Medium', 'Yu Gothic', Verdana, Meiryo, sans-serif;
+  font-family: 'Public Sans', -apple-system, BlinkMacSystemFont, Roboto, 'Segoe UI', 'Helvetica Neue', HelveticaNeue,
+    YuGothic, 'Yu Gothic Medium', 'Yu Gothic', Verdana, Meiryo, sans-serif;
   font-feature-settings: 'palt';
   letter-spacing: 0.1em;
   margin: 0;
@@ -21,7 +21,8 @@ body {
   -webkit-text-size-adjust: 100%;
 }
 
-html,body {
+html,
+body {
   height: 100%;
 }
 
@@ -188,6 +189,6 @@ p {
 b,
 strong,
 .font_bold {
-  font-family: 'Public Sans', -apple-system, BlinkMacSystemFont, Roboto, 'Segoe UI semibold', 'Helvetica Neue', HelveticaNeue, YuGothic,
-  'Yu Gothic', 'Segoe UI', Verdana, Meiryo, sans-serif;
+  font-family: 'Public Sans', -apple-system, BlinkMacSystemFont, Roboto, 'Segoe UI semibold', 'Helvetica Neue',
+    HelveticaNeue, YuGothic, 'Yu Gothic', 'Segoe UI', Verdana, Meiryo, sans-serif;
 }
