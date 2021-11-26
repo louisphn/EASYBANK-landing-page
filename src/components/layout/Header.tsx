@@ -20,14 +20,19 @@ const Header: VFC = () => {
   }, []);
 
   return (
-    <header className="fixed top-0 z-10 min-w-[320px] w-screen h-[64px] flex justify-center xl:overflow-hidden xl:min-w-auto">
+    <header className="fixed pointer-events-none bg-white top-0 z-10 min-w-[320px] w-screen h-[64px] flex justify-center xl:overflow-hidden xl:min-w-auto">
       <div className="container w-11/12 h-full flex justify-between items-center">
         {/* logo */}
-        <Image src="/assets/images/logo.svg" width={140} height={20} />
+        <Image
+          src="/assets/images/logo.svg"
+          alt={'logo'}
+          width={140}
+          height={20}
+        />
         {/* menu bar */}
         <div
           onClick={() => setActive(!active)}
-          className="cursor-pointer flex flex-col w-[28px] h-[16px] justify-between xl:hidden"
+          className="cursor-pointer pointer-events-auto flex flex-col w-[28px] h-[16px] justify-between xl:hidden"
         >
           <span
             className={`block w-full h-[2px] bg-gray-900 tranform transition-all duration-300 ${
@@ -35,11 +40,15 @@ const Header: VFC = () => {
             }`}
           ></span>
           <span
-            className={`block w-full h-[2px] bg-gray-900 transition-all duration-300 ${active ? 'hidden' : 'block'}`}
+            className={`block w-full h-[2px] bg-gray-900 transition-all duration-300 ${
+              active ? 'hidden' : 'block'
+            }`}
           ></span>
           <span
             className={`block w-full h-[2px] bg-gray-900 tranform transition-all duration-300 ${
-              active ? '-rotate-45 translate-y-[-6px]' : 'rotate-0 translate-y-0'
+              active
+                ? '-rotate-45 translate-y-[-6px]'
+                : 'rotate-0 translate-y-0'
             }`}
           ></span>
         </div>
