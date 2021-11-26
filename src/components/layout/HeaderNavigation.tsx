@@ -19,7 +19,7 @@ const HeaderNavigation: VFC<Props> = ({ active }) => {
           <li
             key={item.toLowerCase()}
             onClick={() => router.push(`/${item.toLowerCase()}`)}
-            className="text-primary-dark-blue my-4 text-xl"
+            className="pointer-events-auto cursor-pointer text-primary-dark-blue my-4 text-xl"
           >
             {item}
           </li>

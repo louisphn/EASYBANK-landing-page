@@ -19,9 +19,10 @@ const Heading: VFC = () => {
               alt={'background-image'}
             />
           </div>
-          <div className="hidden md:block md:w-full md:max-h-full">
+          <div className="hidden md:block md:ml-[96px] md:w-full md:max-h-full">
             <Image
               priority
+              objectFit={'cover'}
               src={'/assets/images/bg-intro-desktop.svg'}
               layout={'responsive'}
               width={320}
@@ -29,7 +30,7 @@ const Heading: VFC = () => {
               alt={'background-image'}
             />
           </div>
-          <div className="absolute block w-[90vw] bottom-0 left-[50%] transform translate-x-[-50%] md:w-full md:-bottom-16">
+          <div className="absolute block w-[90vw] bottom-0 left-[50%] transform translate-x-[-50%] md:translate-x-[-30%] md:w-full md:-bottom-16">
             <Image
               priority
               src={'/assets/images/image-mockups.png'}
