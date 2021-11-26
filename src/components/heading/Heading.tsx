@@ -6,9 +6,9 @@ import PrimaryButton from '../button/PrimaryButton';
 
 const Heading: VFC = () => {
   return (
-    <section className="w-screen min-h-[calc(100vh-192px)] flex items-center">
+    <section className="w-screen min-h-full flex items-center">
       <div className="bg-white min-w-[320px] w-screen flex flex-col justify-center items-start md:flex-row md:justify-between md:items-center md:overflow-hidden md:min-w-auto">
-        <div className="relative w-full md:w-6/12 md:order-2">
+        <div className="relative w-full md:w-8/12 md:order-2">
           <div className="block w-full min-w-[320px] h-[284px] overflow-hidden md:hidden">
             <Image
               priority
@@ -30,7 +30,7 @@ const Heading: VFC = () => {
               alt={'background-image'}
             />
           </div>
-          <div className="absolute block w-[90vw] bottom-0 left-[50%] transform translate-x-[-50%] md:translate-x-[-30%] md:w-full md:-bottom-16">
+          <div className="absolute block w-[90vw] bottom-0 left-[50%] transform translate-x-[-50%] md:translate-x-[-30%] md:w-11/12 md:-bottom-16">
             <Image
               priority
               src={'/assets/images/image-mockups.png'}
