@@ -1,4 +1,5 @@
 import { FC } from 'react';
+
 import Head from 'next/head';
 
 import { Header, Footer } from '../components/layout';
@@ -11,14 +12,17 @@ const Layout: FC<Props> = (props) => {
   const { pageTitle, children } = props;
 
   return (
-    <div className="relative min-h-[568px] min-w-[320px] w-screen h-screen xl:min-w-auto">
+    // <div className="relative min-h-[568px] h-auto min-w-[320px] w-screen xl:min-w-auto">
+    <>
       <Head>
         <title>{pageTitle}</title>
       </Head>
       <Header />
-      <main>{children}</main>
+      <main className="mt-[64px] min-h-[calc(100vh-506px)] xl:min-h-[calc(100vh-192px)]">
+        {children}
+      </main>
       <Footer />
-    </div>
+    </>
   );
 };
 

@@ -13,8 +13,6 @@ body {
     YuGothic, 'Yu Gothic Medium', 'Yu Gothic', Verdana, Meiryo, sans-serif;
   font-feature-settings: 'palt';
   letter-spacing: 0.1em;
-  margin: 0;
-  padding: 0;
   overflow-wrap: break-word;
   word-wrap: break-word;
   -ms-text-size-adjust: 100%;
@@ -23,6 +21,8 @@ body {
 
 html,
 body {
+  margin: 0;
+  padding: 0;
   height: 100%;
 }
 

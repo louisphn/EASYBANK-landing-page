@@ -1,28 +1,28 @@
 export const footerMenu = [
   {
     name: 'About Us',
-    path: '/about'
+    path: '/about',
   },
   {
     name: 'Contact',
-    path: '/contact'
+    path: '/contact',
   },
   {
     name: 'Blog',
-    path: '/blog'
+    path: '/blog',
   },
   {
     name: 'Careers',
-    path: '/careers'
+    path: '/careers',
   },
   {
     name: 'Support',
-    path: '/support'
+    path: '/support',
   },
   {
     name: 'Privacy Policy',
-    path: '/privacy-policies'
-  }
+    path: '/privacy-policies',
+  },
 ];
 
 export const headerMenu = ['Home', 'About', 'Contact', 'Blog', 'Careers'];
