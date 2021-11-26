@@ -53,7 +53,7 @@ const Header: VFC = () => {
           ></span>
         </div>
         <HeaderNavigation active={active} />
-        <div className="hidden xl:block">
+        <div className="hidden xl:block xl:z-10 xl:pointer-events-auto">
           <PrimaryButton label={'Request Invite'} />
         </div>
       </div>
