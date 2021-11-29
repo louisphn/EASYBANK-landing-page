@@ -6,7 +6,7 @@ import PrimaryButton from '../button/PrimaryButton';
 
 const Heading: VFC = () => {
   return (
-    <section className="w-screen min-h-full max-h-[800px] flex items-center pb-16 md:pb-0">
+    <section className="w-screen min-h-full max-h-[800px] flex items-center overflow-x-hidden pb-16 md:pb-0">
       <div className="bg-white min-w-[320px] w-screen flex flex-col justify-center items-start md:flex-row md:justify-between md:items-center md:min-w-auto">
         <div className="relative w-full md:w-8/12 md:order-2">
           <div className="block w-full min-w-[320px] h-[284px] overflow-hidden md:hidden">
