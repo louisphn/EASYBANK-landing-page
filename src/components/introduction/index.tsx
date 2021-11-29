@@ -6,7 +6,7 @@ import ImageText from './ImageText';
 const Introduction: VFC = () => {
   return (
     <section className="bg-light-gray px-8 py-16 xl:py-32">
-      <div className="container xl:flex xl:flex-col xl:items-start xl:px-[128px]">
+      <div className="container mx-auto xl:flex xl:flex-col xl:items-start xl:px-[128px]">
         <div>
           <h2 className="text-4xl text-center font-light text-primary-dark-blue xl:text-left">
             Why choose Easybank?
