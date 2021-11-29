@@ -18,7 +18,7 @@ const Layout: FC<Props> = (props) => {
         <title>{pageTitle}</title>
       </Head>
       <Header />
-      <main className="mt-[64px] min-h-[calc(100vh-506px)] xl:min-h-[calc(100vh-192px)]">
+      <main className="mt-[64px] overflow-y-visible min-h-[calc(100vh-506px)] xl:min-h-[calc(100vh-192px)]">
         {children}
       </main>
       <Footer />
