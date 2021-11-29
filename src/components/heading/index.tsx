@@ -6,10 +6,10 @@ import PrimaryButton from '../button/PrimaryButton';
 
 const Heading: VFC = () => {
   return (
-    <section className="w-screen min-h-full max-h-[800px] flex items-center pb-16 md:overflow-x-hidden md:pb-0">
-      <div className="bg-white min-w-[320px] w-screen flex flex-col justify-center items-start md:flex-row md:justify-between md:items-center md:min-w-auto">
+    <section className="w-screen min-h-full max-h-[800px] max-w-screen flex items-center pb-16 md:pb-0">
+      <div className="bg-white min-w-[320px] w-screen flex flex-col justify-center items-start md:flex-row md:justify-between md:items-center md:min-w-auto md:w-full">
         <div className="relative w-full md:w-8/12 md:order-2">
-          <div className="block w-full min-w-[320px] h-[284px] overflow-hidden md:hidden">
+          <div className="block w-full min-w-[320px] h-[284px] md:hidden">
             <Image
               priority
               src={'/assets/images/bg-intro-mobile.svg'}
@@ -19,7 +19,7 @@ const Heading: VFC = () => {
               alt={'background-image'}
             />
           </div>
-          <div className="hidden md:block md:ml-[96px] md:w-full md:max-h-full">
+          <div className="hidden md:block md:ml-[96px] md:w-full">
             <Image
               priority
               objectFit={'cover'}
