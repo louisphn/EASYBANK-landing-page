@@ -5,10 +5,10 @@ import ImageText from './ImageText';
 
 const Introduction: VFC = () => {
   return (
-    <section className="bg-light-gray px-8 py-16 xl:py-32">
+    <section className="bg-light-gray-blue px-8 py-16 xl:py-32">
       <div className="container mx-auto xl:flex xl:flex-col xl:items-start xl:px-[128px]">
         <div>
-          <h2 className="text-4xl text-center font-light text-primary-dark-blue xl:text-left">
+          <h2 className="text-4xl pt-4 pb-8 text-center font-light text-primary-dark-blue xl:text-left xl:pb-0">
             Why choose Easybank?
           </h2>
           <p className="text-gray-blue font-light text-center xl:my-8 xl:w-8/12 xl:text-left">
