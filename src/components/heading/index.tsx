@@ -6,7 +6,7 @@ import PrimaryButton from '../button/PrimaryButton';
 
 const Heading: VFC = () => {
   return (
-    <section className="w-screen min-h-full flex items-center">
+    <section className="w-screen min-h-full flex items-center pb-16 md:pb-0">
       <div className="bg-white min-w-[320px] w-screen flex flex-col justify-center items-start md:flex-row md:justify-between md:items-center md:overflow-hidden md:min-w-auto">
         <div className="relative w-full md:w-8/12 md:order-2">
           <div className="block w-full min-w-[320px] h-[284px] overflow-hidden md:hidden">
@@ -42,8 +42,8 @@ const Heading: VFC = () => {
             />
           </div>
         </div>
-        <div className="w-full flex flex-col items-center p-8 md:p-0 md:items-start md:ml-32 md:w-3/12 md:h-full md:order-1">
-          <h1 className="font-medium text-primary-dark-blue text-center md:text-left">
+        <div className="w-full flex flex-col items-center p-8 md:p-0 md:items-start md:ml-12 md:h-full md:order-1 md:w-5/12 xl:ml-32 xl:w-3/12">
+          <h1 className="font-light text-3xl text-primary-dark-blue text-center md:text-left">
             Next generation digital banking
           </h1>
           <p className="text-gray-blue w-full text-center mb-8 md:text-left">
