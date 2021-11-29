@@ -9,7 +9,7 @@ const Heading: VFC = () => {
     <section className="w-screen min-h-full max-h-[800px] max-w-screen flex items-center pb-16 md:pb-0">
       <div className="bg-white min-w-[320px] w-screen flex flex-col justify-center items-start md:flex-row md:justify-between md:items-center md:min-w-auto md:w-full">
         <div className="relative w-full md:w-8/12 md:order-2">
-          <div className="block w-full min-w-[320px] h-[284px] md:hidden">
+          <div className="block w-full overflow-hidden min-w-[320px] h-[284px] md:hidden">
             <Image
               priority
               src={'/assets/images/bg-intro-mobile.svg'}
