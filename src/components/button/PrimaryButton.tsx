@@ -6,7 +6,7 @@ interface Button {
 
 const PrimaryButton: VFC<Button> = ({ label }) => {
   return (
-    <button className="py-4 px-8 rounded-full bg-gradient-to-r from-primary-lime-green to-primary-light-cyan text-white filter hover:brightness-110 lg:whitespace-nowrap">
+    <button className="py-3 px-8 rounded-full bg-gradient-to-r from-primary-lime-green to-primary-light-cyan text-white filter hover:brightness-110 lg:whitespace-nowrap">
       {label}
     </button>
   );
